@@ -1,0 +1,13 @@
+table {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+thead {
+    background-color: lightgray;
+}
+
+tbody {
+    background-color: lightseagreen;
+}
