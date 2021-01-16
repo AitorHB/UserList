@@ -14,14 +14,16 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-## Running unit tests
+## Links
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Access project URL: [Project User List](https://user-list-7df8c.web.app/)
+Access project Git: [Github](https://github.com/AitorHB/UserList)
 
-## Running end-to-end tests
+## Libraries used:
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+`Bootstrap 4`: to add a little flair to the design
+`RxJs`: to make the calls to the provided API
+`Firebase`: to host the project
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+

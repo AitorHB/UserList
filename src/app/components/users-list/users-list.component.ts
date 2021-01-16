@@ -34,7 +34,6 @@ export class UsersListComponent implements OnInit {
             .subscribe((user: User[]) => {
                 this.loading = true;
                 this.userList = user;
-                console.log(this.userList);
             }, err => {
                 console.log(err);
             })
