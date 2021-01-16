@@ -11,7 +11,6 @@ import { finalize } from 'rxjs/operators';
 export class UsersListComponent implements OnInit {
 
     userList: User[] = [];
-    loading = false;
 
     constructor(
         private userService: UsersService
@@ -28,11 +27,7 @@ export class UsersListComponent implements OnInit {
      */
     getUserList() {
         this.userService.getUsers()
-            .pipe(
-                finalize(() => this.loading = false)
-            )
             .subscribe((user: User[]) => {
-                this.loading = true;
                 this.userList = user;
             }, err => {
                 console.log(err);
