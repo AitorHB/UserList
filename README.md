@@ -16,14 +16,17 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 
 ## Links
 
-Access project URL: [Project User List](https://user-list-7df8c.web.app/)
-Access project Git: [Github](https://github.com/AitorHB/UserList)
+Access project URL: [Project User List](https://user-list-7df8c.web.app/).
+
+Access project Git: [Github](https://github.com/AitorHB/UserList).
 
 ## Libraries used:
 
-`Bootstrap 4`: to add a little flair to the design
-`RxJs`: to make the calls to the provided API
-`Firebase`: to host the project
+`Bootstrap 4`: to add a little flair to the design.
+
+`RxJs`: to make the calls to the provided API.
+
+`Firebase`: to host the project.
 
 
 
